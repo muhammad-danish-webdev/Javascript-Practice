@@ -79,27 +79,27 @@
 
 // document.write(a);
 
-let userInput = prompt("Enter Your Age");
-let age = Number.parseInt(userInput);
+// let userInput = prompt("Enter Your Age");
+// let age = Number.parseInt(userInput);
 
-while (true) {
-  if (age < 15 && age > 10) {
-    alert("you are ever child. You can not drive the car");
-    break;
-  }
-  if (age < 22 && age > 15) {
-    alert("you should practice for this . You can not drive the car");
-    break;
-  }
-  if (age < 30 && age > 22) {
-    alert("you can drive carefully");
-    break;
-  }
-  if (age < 40 && age > 30) {
-    alert("you can drive easily");
-    break;
-  } else {
-    alert("this is not for you");
-    break;
-  }
-}
+// while (true) {
+//   if (age < 15 && age > 10) {
+//     alert("you are ever child. You can not drive the car");
+//     break;
+//   }
+//   if (age < 22 && age > 15) {
+//     alert("you should practice for this . You can not drive the car");
+//     break;
+//   }
+//   if (age < 30 && age > 22) {
+//     alert("you can drive carefully");
+//     break;
+//   }
+//   if (age < 40 && age > 30) {
+//     alert("you can drive easily");
+//     break;
+//   } else {
+//     alert("this is not for you");
+//     break;
+//   }
+// }
