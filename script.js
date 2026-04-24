@@ -103,3 +103,9 @@
 //     break;
 //   }
 // }
+
+const fruits = ["apple", "banana"];
+
+for (let fruit of fruits) {
+  if (fruit === "banana") console.log(fruit);
+}
