@@ -104,8 +104,11 @@
 //   }
 // }
 
-const fruits = ["apple", "banana"];
+// const fruits = ["apple", "banana"];
 
-for (let fruit of fruits) {
-  if (fruit === "banana") console.log(fruit);
-}
+// for (let fruit of fruits) {
+//   if (fruit === "banana") console.log(fruit);
+// }
+let createNumber = Math.floor(Math.random() * 90000);
+let convertNineNumber = createNumber + 1000000;
+console.log(convertNineNumber);
