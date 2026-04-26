@@ -113,17 +113,43 @@
 // let convertNineNumber = createNumber + 1000000;
 // console.log(convertNineNumber);
 
-let runAgain = true;
-let age = prompt("enter Your Number ");
-age = Number.parseInt(age);
+// let runAgain = true;
+// let age = prompt("enter Your Number ");
+// age = Number.parseInt(age);
 
+// while (runAgain) {
+//   const canDrive = (age) => {
+//     return age > 18 ? true : false;
+//   };
+//   if (canDrive(age)) {
+//     alert("Yes You can drive");
+//   } else {
+//     alert("You Cannot Drive");
+//   }
+// }
+
+// let age = prompt("what is your age");
+// age = Number.parseInt(age);
+
+// if (age > 18) {
+//   console.log("you can drive");
+// } else {
+//   console.log("you can not drive");
+// }
+
+let runAgain = true;
+
+const canDrive = (age) => {
+  return age > 18 ? true : false;
+};
 while (runAgain) {
-  const canDrive = (age) => {
-    return age > 18 ? true : false;
-  };
+  let age = prompt("what is your age");
+  age = Number.parseInt(age);
+
   if (canDrive(age)) {
-    alert("Yes You can drive");
+    console.log("yes you can drive");
   } else {
-    alert("You Cannot Drive");
+    console.log(" you can not drive");
   }
+  runAgain = confirm("do you play again?");
 }
