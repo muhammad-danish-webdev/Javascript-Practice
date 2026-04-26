@@ -112,3 +112,18 @@
 // let createNumber = Math.floor(Math.random() * 90000);
 // let convertNineNumber = createNumber + 1000000;
 // console.log(convertNineNumber);
+
+let runAgain = true;
+let age = prompt("enter Your Number ");
+age = Number.parseInt(age);
+
+while (runAgain) {
+  const canDrive = (age) => {
+    return age > 18 ? true : false;
+  };
+  if (canDrive(age)) {
+    alert("Yes You can drive");
+  } else {
+    alert("You Cannot Drive");
+  }
+}
